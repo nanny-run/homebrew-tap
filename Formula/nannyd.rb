@@ -18,19 +18,19 @@ class Nannyd < Formula
   on_macos do
     on_arm do
       url "https://github.com/nanny-run/nanny/releases/download/v#{version}/nanny-macos-arm64.tar.gz"
-      sha256 "SHA256_MACOS_ARM64"
+      sha256 "3e12dad9519173e79e9d18b9329adecdea1149ccfe12b08f8139f03792d05ddf"
     end
 
     on_intel do
       url "https://github.com/nanny-run/nanny/releases/download/v#{version}/nanny-macos-x86_64.tar.gz"
-      sha256 "SHA256_MACOS_X86_64"
+      sha256 "17e2242bbfeaffea9760d45693dfcd9f37460ec10eced8399187634846d671b9"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nanny-run/nanny/releases/download/v#{version}/nanny-linux-x86_64.tar.gz"
-      sha256 "SHA256_LINUX_X86_64"
+      sha256 "a4635e6da387ba393092311da06d47d6d67ec348121a7137db8c26e46abe6412"
     end
   end
 
